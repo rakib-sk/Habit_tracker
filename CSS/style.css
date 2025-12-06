@@ -1,0 +1,163 @@
+*{
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-family: sans-serif;
+}
+body{
+  background-color: #F7F9FC;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #FFFFFF;
+  color: #222222;
+}
+.icons{
+  display: flex;
+  gap: 30px;
+  font-size: 25px;
+}
+.habites{
+  padding: 2px;
+  height: 55px;
+  width: 400px;
+  border: 2px solid #E8EAF0;
+  border-radius: 10px;
+  margin: 25px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.habites input{
+  height: 45px;
+  width: 275px;
+  outline: none;
+  border: none;
+  margin-left: 2px;
+  font-size: 18px;
+  background-color: #FFFFFF;
+}
+input[name="habit"]{
+  margin-left: 15px;
+}
+
+.habites button{
+  height: 40px;
+  width: 100px;
+  background-color: #4CAF50;
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  color: #FFFFFF;
+}
+
+.habites:hover{
+  border: 2px solid #000000;
+}
+
+.habites button:hover{
+  background-color: #43A047;
+}
+
+
+.habit-list{
+  margin: 25px;
+}
+.habit-crad{
+  margin-top: 20px;
+  height: 150px;
+  background-color: #FFFFFF;
+  padding: 15px;
+  width: 95%;
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.08);
+  border-radius: 5px;
+  border: 2px solid #E8EAF0;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.done-btn{
+  margin-right: 15px;
+  height: 40px;
+  width: 120px;
+  background-color: #4CAF50;
+  border: none;
+  color: #FFFFFF;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+.delete-btn{
+  height: 40px;
+  width: 90px;
+  background-color: #E53935;
+  border: none;
+  color: #FFFFFF;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+.progress-container{
+  width: 98%;
+  background-color: #eee;
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+.progress-bar{
+  height: 12px;
+  background-color: #4CAF50;
+  width: 0;
+  text-align: center;
+  line-height: 30px;
+}
+
+.progress-num{
+  text-align: right;
+  margin-right: 10px;
+}
+
+
+
+.status{
+  margin: 25px;
+}
+
+.status-card{
+  margin-top: 20px;
+  height: 110px;
+  background-color: #FFFFFF;
+  padding: 15px;
+  width: 95%;
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.08);
+  border-radius: 5px;
+  border: 2px solid #E8EAF0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.status-card-item{
+  display: flex;
+  justify-content: space-between;
+}
+.text{
+  text-align: left;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.counter{
+  margin-left: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
